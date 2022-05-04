@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #FFA185;
+}
+header, footer{
+    background-color:#129799;
+}
+.list-one{
+    display: flex;
+    justify-content: center;
+    height: 52px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+.list-control{ 
+    margin: 1rem 2rem;
+}
+.class-word-list{
+    color: #F7F7F7;
+}
+.div-beat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1-title{
+    font-size: 4.54vw;
+    color: #F7F7F7;
+}
+.img-life{
+    width: 481px;
+    height: 258px;
+}
+.class-paragraph{
+    margin: 2rem 2rem;
+}
+.h2-title{
+    color: #F7F7F7;
+    font-size: 40px;
+}
+.paragraph-main{
+    font-size: 30px;
+}
+.first-block{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.img-ballet-dancer, .img-disk{
+    width:41.6vw;
+}
+.second-block{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-tape, .img-phone{
+   width:41.6vw;
+    margin-top: 20px;
+}
+.h3-see-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.section-list-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+.div-img-footer{
+    display: flex;
+    width:5vw;
+    height: 30px;
+    justify-content: space-around;
+    margin-left:15px
+}
+.list-footer{
+    display: flex;
+}
+.div-img-footer img{
+  margin-left:20px;
+}
